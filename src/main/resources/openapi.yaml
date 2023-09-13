@@ -1,0 +1,169 @@
+openapi: 3.0.2
+info:
+  contact: {}
+  description: Todo
+  title: todo
+  version: 1.0.0
+servers:
+- description: ""
+  url: http://localhost:8080/v1
+paths:
+  /todos:
+    description: "The REST endpoint/path used to list and create zero or more `todo`\
+      \ entities.  This path contains a `GET` and `POST` operation to perform the\
+      \ list and create tasks, respectively."
+    get:
+      description: Gets a list of all `todo` entities.
+      operationId: getTodos
+      parameters:
+      - description: Show completed/uncompleted Todo Items
+        explode: true
+        in: query
+        name: completed
+        required: false
+        schema:
+          type: boolean
+        style: form
+      responses:
+        "200":
+          content:
+            application/json:
+              schema:
+                items:
+                  $ref: '#/components/schemas/todo'
+                type: array
+          description: Successful response - returns an array of `todo` entities.
+      summary: List All todos
+      x-accepts: application/json
+    post:
+      description: Creates a new instance of a `todo`.
+      operationId: createTodo
+      parameters:
+      - description: Show completed/uncompleted Todo Items
+        explode: true
+        in: query
+        name: completed
+        required: false
+        schema:
+          type: boolean
+        style: form
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/todo'
+        description: A new `todo` to be created.
+        required: true
+      responses:
+        "201":
+          description: Successful response.
+      summary: Create a todo
+      x-content-type: application/json
+      x-accepts: application/json
+    summary: Path used to manage the  list of todos.
+  /todos/{todoId}:
+    delete:
+      description: Deletes an existing `todo`.
+      operationId: deleteTodo
+      parameters:
+      - description: A unique identifier for a `todo`.
+        explode: false
+        in: path
+        name: todoId
+        required: true
+        schema:
+          type: string
+        style: simple
+      responses:
+        "204":
+          description: Successful response.
+        "404":
+          description: Todo Item not found!
+      summary: Delete a todo
+      x-accepts: application/json
+    description: "The REST endpoint/path used to get, update, and delete single instances\
+      \ of an `todo`.  This path contains `GET`, `PUT`, and `DELETE` operations used\
+      \ to perform the get, update, and delete tasks, respectively."
+    get:
+      description: Gets the details of a single instance of a `todo`.
+      operationId: getTodo
+      parameters:
+      - description: A unique identifier for a `todo`.
+        explode: false
+        in: path
+        name: todoId
+        required: true
+        schema:
+          type: string
+        style: simple
+      responses:
+        "200":
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/todo'
+          description: Successful response - returns a single `todo`.
+        "404":
+          description: Todo Item not found!
+      summary: Get a todo
+      x-accepts: application/json
+    put:
+      description: Updates an existing `todo`.
+      operationId: updateTodo
+      parameters:
+      - description: A unique identifier for a `todo`.
+        explode: false
+        in: path
+        name: todoId
+        required: true
+        schema:
+          type: string
+        style: simple
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/todo'
+        description: Updated `todo` information.
+        required: true
+      responses:
+        "202":
+          description: Successful response.
+        "404":
+          description: Todo Item not found!
+      summary: Update a todo
+      x-content-type: application/json
+      x-accepts: application/json
+    summary: Path used to manage a single todo.
+components:
+  schemas:
+    todo:
+      description: Todo Item
+      example:
+        name: Todo Item
+        description: Simple Todo item
+        created_at: 2020-05-06T18:25:43.511Z
+        due_at: 2023-05-06T18:25:43.511Z
+        completed: true
+      properties:
+        id:
+          type: integer
+          x-java-field-annotation:
+          - '@javax.persistence.Id'
+          - '@javax.persistence.GeneratedValue(strategy = javax.persistence.GenerationType.IDENTITY)'
+        name:
+          type: string
+        description:
+          type: string
+        created_at:
+          format: date-time
+          type: string
+        due_at:
+          format: date-time
+          type: string
+        completed:
+          type: boolean
+      title: Root Type for todo
+      type: object
+      x-java-class-annotation:
+      - '@javax.persistence.Entity'
