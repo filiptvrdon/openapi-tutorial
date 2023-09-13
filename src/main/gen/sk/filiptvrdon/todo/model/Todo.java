@@ -25,7 +25,7 @@ import javax.annotation.Generated;
         @javax.persistence.Entity
         @Schema(name = "todo", description = "Todo Item")
             @JsonTypeName("todo")
-@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2023-09-13T11:40:12.191+02:00[Europe/Prague]")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2023-09-13T12:51:31.428+02:00[Europe/Prague]")
 public class Todo implements Serializable {
 
     private static final long serialVersionUID = 1L;

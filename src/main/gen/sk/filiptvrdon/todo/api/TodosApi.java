@@ -32,7 +32,7 @@ import java.util.Map;
 import java.util.Optional;
 import javax.annotation.Generated;
 
-@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2023-09-13T11:40:12.191+02:00[Europe/Prague]")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2023-09-13T12:51:31.428+02:00[Europe/Prague]")
 @Validated
 @Tag(name = "todos", description = "the todos API")
 public interface TodosApi {
