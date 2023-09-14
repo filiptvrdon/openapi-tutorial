@@ -4,30 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9ea1827-0ed3-47c8-beb2-5766797869e3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.hypothesis/examples/22daed488f7d5db1/eaad3e94ef649174" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.openapi-generator/api.yaml-default.sha256" beforeDir="false" afterPath="$PROJECT_DIR$/.openapi-generator/api.yaml-default.sha256" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/gen/sk/filiptvrdon/todo/api/TodosApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/gen/sk/filiptvrdon/todo/api/TodosApi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/gen/sk/filiptvrdon/todo/model/Todo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/gen/sk/filiptvrdon/todo/model/Todo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sk/filiptvrdon/todo/api/TodosApiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sk/filiptvrdon/todo/api/TodosApiController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/api.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/api.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/openapi.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/openapi.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/api.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/api.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/data.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/openapi.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/openapi.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sk/filiptvrdon/todo/api/TodosApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sk/filiptvrdon/todo/api/TodosApi.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sk/filiptvrdon/todo/api/TodosApiController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sk/filiptvrdon/todo/api/TodosApiController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sk/filiptvrdon/todo/model/Todo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sk/filiptvrdon/todo/model/Todo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-    </list>
+    <list default="true" id="f9ea1827-0ed3-47c8-beb2-5766797869e3" name="Changes" comment="basic API working on H2 db with data.sql" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -109,6 +86,19 @@
       <option name="presentableId" value="Default" />
       <updated>1694515900465</updated>
     </task>
+    <task id="LOCAL-00001" summary="basic API working on H2 db with data.sql">
+      <option name="closed" value="true" />
+      <created>1694690961802</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1694690961802</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="basic API working on H2 db with data.sql" />
+    <option name="LAST_COMMIT_MESSAGE" value="basic API working on H2 db with data.sql" />
   </component>
 </project>
