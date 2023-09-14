@@ -103,6 +103,8 @@ paths:
 components:
     schemas:
         todo:
+            x-java-class-annotation:
+                - "@javax.persistence.Entity"
             title: Root Type for todo
             description: Todo Item
             type: object
@@ -117,19 +119,17 @@ components:
                     type: string
                 description:
                     type: string
-                created_at:
-                    format: date-time
-                    type: string
-                due_at:
-                    format: date-time
-                    type: string
+#                created_at:
+#                    format: date-time
+#                    type: string
+#                due_at:
+#                    format: date-time
+#                    type: string
                 completed:
                     type: boolean
             example:
                 name: Todo Item
                 description: Simple Todo item
-                created_at: '2020-05-06T18:25:43.511Z'
-                due_at: '2023-05-06T18:25:43.511Z'
+#                created_at: '2023-09-14T11:18:49.925+02:00[Europe/Prague]'
+#                due_at: '2023-09-14T11:18:49.925+02:00[Europe/Prague]'
                 completed: true
-            x-java-class-annotation:
-                - "@javax.persistence.Entity"

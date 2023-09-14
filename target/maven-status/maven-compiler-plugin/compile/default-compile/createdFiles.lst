@@ -2,6 +2,8 @@ sk\filiptvrdon\todo\RFC3339DateFormat.class
 sk\filiptvrdon\todo\api\TodosApi.class
 sk\filiptvrdon\todo\config\SpringDocConfiguration.class
 sk\filiptvrdon\todo\config\HomeController.class
+sk\filiptvrdon\todo\repository\TodoRepository.class
 sk\filiptvrdon\todo\model\Todo.class
 sk\filiptvrdon\todo\api\ApiUtil.class
+sk\filiptvrdon\todo\TodoApplication.class
 sk\filiptvrdon\todo\api\TodosApiController.class

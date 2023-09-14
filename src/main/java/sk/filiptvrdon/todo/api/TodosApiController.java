@@ -56,4 +56,30 @@ public class TodosApiController implements TodosApi {
        return ResponseEntity.ok(todoRepository.findById(Integer.valueOf(todoId)).orElseThrow(() -> new ResponseStatusException((HttpStatus.NOT_FOUND))));
     }
 
+    @Override
+    public ResponseEntity<Void> deleteTodo(@Parameter(name = "todoId", description = "A unique identifier for a `todo`.", required = true, in = ParameterIn.PATH) @PathVariable("todoId") String todoId) {
+        todoRepository.deleteById(Integer.valueOf(todoId));
+        return new ResponseEntity<>(HttpStatus.valueOf(204));
+    }
+
+    @Override
+    public ResponseEntity<Void> updateTodo(String todoId, Todo todo) {
+        if (!(getTodo(todoId).getStatusCode().equals(HttpStatus.valueOf(200)))){
+            return new ResponseEntity<>(HttpStatus.valueOf(404));
+        }
+
+        todoRepository.save(todo);
+        return new ResponseEntity<>(HttpStatus.valueOf(202));
+    }
+
+    @Override
+    public ResponseEntity<Void> createTodo(Todo todo, Boolean completed) {
+        todoRepository.save(todo);
+        return new ResponseEntity<>(HttpStatus.valueOf(201));
+    }
+
+    @Override
+    public ResponseEntity<List<Todo>> getTodos(Boolean completed) {
+        return ResponseEntity.ok(todoRepository.getByCompleted(completed));
+    }
 }

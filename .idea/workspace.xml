@@ -4,7 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9ea1827-0ed3-47c8-beb2-5766797869e3" name="Changes" comment="" />
+    <list default="true" id="f9ea1827-0ed3-47c8-beb2-5766797869e3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.hypothesis/examples/22daed488f7d5db1/eaad3e94ef649174" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.openapi-generator/api.yaml-default.sha256" beforeDir="false" afterPath="$PROJECT_DIR$/.openapi-generator/api.yaml-default.sha256" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/gen/sk/filiptvrdon/todo/api/TodosApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/gen/sk/filiptvrdon/todo/api/TodosApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/gen/sk/filiptvrdon/todo/model/Todo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/gen/sk/filiptvrdon/todo/model/Todo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sk/filiptvrdon/todo/api/TodosApiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sk/filiptvrdon/todo/api/TodosApiController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/api.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/api.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/openapi.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/openapi.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/api.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/data.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/openapi.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/openapi.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sk/filiptvrdon/todo/api/TodosApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sk/filiptvrdon/todo/api/TodosApi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sk/filiptvrdon/todo/api/TodosApiController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sk/filiptvrdon/todo/api/TodosApiController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sk/filiptvrdon/todo/model/Todo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sk/filiptvrdon/todo/model/Todo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,28 +49,29 @@
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2VIFtBQ56KM09Qr7UMEvVrRoOie" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_directory_selection": "C:/Users/Filip/Documents/openapi-tutorial/src/main/java/sk/filiptvrdon/todo",
-    "last_opened_file_path": "C:/Users/Filip/Documents/openapi-tutorial/templates",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "com.poratu.idea.plugins.tomcat.setting.TomcatServersConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_directory_selection&quot;: &quot;C:/Users/Filip/Documents/openapi-tutorial/src/main/java/sk/filiptvrdon/todo&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Filip/Documents/openapi-tutorial/templates&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.poratu.idea.plugins.tomcat.setting.TomcatServersConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Filip\Documents\openapi-tutorial\templates" />

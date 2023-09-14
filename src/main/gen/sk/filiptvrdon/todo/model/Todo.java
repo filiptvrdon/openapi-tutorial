@@ -5,8 +5,6 @@ import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonTypeName;
-import java.util.Date;
-import org.springframework.format.annotation.DateTimeFormat;
 import org.openapitools.jackson.nullable.JsonNullable;
 import java.io.Serializable;
 import java.time.OffsetDateTime;
@@ -25,7 +23,7 @@ import javax.annotation.Generated;
         @javax.persistence.Entity
         @Schema(name = "todo", description = "Todo Item")
             @JsonTypeName("todo")
-@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2023-09-13T12:51:31.428+02:00[Europe/Prague]")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2023-09-14T13:06:43.523+02:00[Europe/Prague]")
 public class Todo implements Serializable {
 
     private static final long serialVersionUID = 1L;
@@ -37,12 +35,6 @@ public class Todo implements Serializable {
             private String name;
 
             private String description;
-
-            @DateTimeFormat(iso = DateTimeFormat.ISO.DATE_TIME)
-            private Date createdAt;
-
-            @DateTimeFormat(iso = DateTimeFormat.ISO.DATE_TIME)
-            private Date dueAt;
 
             private Boolean completed;
 
@@ -106,46 +98,6 @@ public class Todo implements Serializable {
     this.description = description;
     }
 
-    public Todo createdAt(Date createdAt) {
-        this.createdAt = createdAt;
-    return this;
-    }
-
-    /**
-        * Get createdAt
-    * @return createdAt
-    */
-        @Valid 
-        @Schema(name = "created_at", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
-        @JsonProperty("created_at")
-    public Date getCreatedAt() {
-    return createdAt;
-    }
-
-    public void setCreatedAt(Date createdAt) {
-    this.createdAt = createdAt;
-    }
-
-    public Todo dueAt(Date dueAt) {
-        this.dueAt = dueAt;
-    return this;
-    }
-
-    /**
-        * Get dueAt
-    * @return dueAt
-    */
-        @Valid 
-        @Schema(name = "due_at", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
-        @JsonProperty("due_at")
-    public Date getDueAt() {
-    return dueAt;
-    }
-
-    public void setDueAt(Date dueAt) {
-    this.dueAt = dueAt;
-    }
-
     public Todo completed(Boolean completed) {
         this.completed = completed;
     return this;
@@ -178,14 +130,12 @@ return false;
     return Objects.equals(this.id, todo.id) &&
     Objects.equals(this.name, todo.name) &&
     Objects.equals(this.description, todo.description) &&
-    Objects.equals(this.createdAt, todo.createdAt) &&
-    Objects.equals(this.dueAt, todo.dueAt) &&
     Objects.equals(this.completed, todo.completed);
 }
 
     @Override
     public int hashCode() {
-    return Objects.hash(id, name, description, createdAt, dueAt, completed);
+    return Objects.hash(id, name, description, completed);
     }
 
     @Override
@@ -195,8 +145,6 @@ return false;
 sb.append("    id: ").append(toIndentedString(id)).append("\n");
 sb.append("    name: ").append(toIndentedString(name)).append("\n");
 sb.append("    description: ").append(toIndentedString(description)).append("\n");
-sb.append("    createdAt: ").append(toIndentedString(createdAt)).append("\n");
-sb.append("    dueAt: ").append(toIndentedString(dueAt)).append("\n");
 sb.append("    completed: ").append(toIndentedString(completed)).append("\n");
 sb.append("}");
     return sb.toString();

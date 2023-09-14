@@ -1,8 +1,9 @@
-C:\Users\Filip\Documents\openapi-tutorial\src\main\gen\sk\filiptvrdon\todo\OpenApiGeneratorApplication.java
 C:\Users\Filip\Documents\openapi-tutorial\src\main\gen\sk\filiptvrdon\todo\model\Todo.java
 C:\Users\Filip\Documents\openapi-tutorial\src\main\gen\sk\filiptvrdon\todo\config\SpringDocConfiguration.java
+C:\Users\Filip\Documents\openapi-tutorial\src\main\java\sk\filiptvrdon\todo\api\TodosApiController.java
 C:\Users\Filip\Documents\openapi-tutorial\src\main\gen\sk\filiptvrdon\todo\api\ApiUtil.java
 C:\Users\Filip\Documents\openapi-tutorial\src\main\gen\sk\filiptvrdon\todo\RFC3339DateFormat.java
-C:\Users\Filip\Documents\openapi-tutorial\src\main\gen\sk\filiptvrdon\todo\api\TodosApiController.java
+C:\Users\Filip\Documents\openapi-tutorial\src\main\java\sk\filiptvrdon\todo\repository\TodoRepository.java
 C:\Users\Filip\Documents\openapi-tutorial\src\main\gen\sk\filiptvrdon\todo\api\TodosApi.java
 C:\Users\Filip\Documents\openapi-tutorial\src\main\gen\sk\filiptvrdon\todo\config\HomeController.java
+C:\Users\Filip\Documents\openapi-tutorial\src\main\java\sk\filiptvrdon\todo\TodoApplication.java
