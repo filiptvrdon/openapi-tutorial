@@ -5,3 +5,12 @@
 - API testing using schemathesis
 
 - done following this RedHat tutorial https://appdev.consulting.redhat.com/tracks/contract-first/introduction-to-openapi-and-apicurio.html
+
+Running/Testing:
+- `mvn spring-boot:run`
+- test manually on http://localhost:8080/swagger-ui/index.html
+- to test with schemathesis:
+  - instal schemathesis https://virtualenv.pypa.io/en/latest/installation.html
+  - test https://virtualenv.pypa.io/en/latest/user_guide.html
+
+
